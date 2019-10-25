@@ -1,0 +1,9 @@
+@import "variables.scss";
+
+.canvas {
+  margin: 25px auto;
+  display: block;
+
+  background-color: $graphit;
+  box-shadow: 5px 5px 5px black;
+}

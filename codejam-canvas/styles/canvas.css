@@ -1,0 +1,8 @@
+.canvas {
+  margin: 25px auto;
+  display: block;
+  background-color: #24292e;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+/*# sourceMappingURL=canvas.css.map */
