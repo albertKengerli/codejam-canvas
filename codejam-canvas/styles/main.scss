@@ -1,5 +1,12 @@
 @import "variables.scss";
 
 body {
+  font-family: $Roboto;
+
   background-color: $graphitLight;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
 }

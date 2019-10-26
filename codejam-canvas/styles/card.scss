@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+.card {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: $graphit;
+
+  &_heading {
+    padding-left: 1em;
+    padding-right: 1em;
+
+    text-align: center;
+
+    color: white;
+  }
+
+  &_button {
+    position: relative;
+
+    padding: 1em 1em 1em 5em;
+    border: none;
+
+    text-align: left;
+    color: white;
+
+    background-color: $graphit;
+  }
+}

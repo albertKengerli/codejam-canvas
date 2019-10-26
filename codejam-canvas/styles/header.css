@@ -1,12 +1,13 @@
 .header {
+  margin-bottom: 50px;
   background-color: #24292e;
-  -webkit-box-shadow: 0px 5px 5px black;
-          box-shadow: 0px 5px 5px black;
+  -webkit-box-shadow: 6px 6px 10px black;
+          box-shadow: 6px 6px 10px black;
 }
 
 .header_logo {
+  margin: 0 0;
   padding: 0.5em 0.5em;
-  font-family: "Roboto Mono", "Helvetica", sans-serif;
   color: white;
 }
 /*# sourceMappingURL=header.css.map */
