@@ -4,7 +4,6 @@ let url3 ="https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/
 
 let image = new Image;
 image.src = url3;
-console.log(image);
 
 let canvas = document.getElementById("canvas");
 let button4x4 = document.getElementById("button4x4");
