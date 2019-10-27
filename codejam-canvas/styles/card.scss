@@ -26,5 +26,13 @@
     color: white;
 
     background-color: $graphit;
+
+    &:hover {
+      background-color: $accent;
+    }
+
+    .selected {
+      background-color: $accent;
+    }
   }
 }

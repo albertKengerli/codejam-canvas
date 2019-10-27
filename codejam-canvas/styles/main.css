@@ -1,3 +1,111 @@
+.header {
+  margin-bottom: 50px;
+  background-color: #24292e;
+  -webkit-box-shadow: 6px 6px 10px black;
+          box-shadow: 6px 6px 10px black;
+}
+
+.header_logo {
+  margin: 0 0;
+  padding: 0.5em 0.5em;
+  color: white;
+}
+
+.canvas {
+  display: block;
+  background-color: #24292e;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+
+.icon_bucket:before {
+  position: absolute;
+  top: 25%;
+  left: 1.5em;
+  max-width: 100%;
+  width: 1.8em;
+  height: 1.8em;
+  content: "";
+  background-image: url("/codejam-canvas/assets/icons/bucket.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.icon_eyedropper:before {
+  position: absolute;
+  top: 25%;
+  left: 1.5em;
+  max-width: 100%;
+  width: 1.8em;
+  height: 1.8em;
+  content: "";
+  background-image: url("/codejam-canvas/assets/icons/eyedropper.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.icon_move:before {
+  position: absolute;
+  top: 25%;
+  left: 1.5em;
+  max-width: 100%;
+  width: 1.8em;
+  height: 1.8em;
+  content: "";
+  background-image: url("/codejam-canvas/assets/icons/move.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.icon_transform:before {
+  position: absolute;
+  top: 25%;
+  left: 1.5em;
+  max-width: 100%;
+  width: 1.5em;
+  height: 1.5em;
+  content: "";
+  background-image: url("/codejam-canvas/assets/icons/transform.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #24292e;
+}
+
+.card_heading {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  color: white;
+}
+
+.card_button {
+  position: relative;
+  padding: 1em 1em 1em 5em;
+  border: none;
+  text-align: left;
+  color: white;
+  background-color: #24292e;
+}
+
+.card_button:hover {
+  background-color: gold;
+}
+
+.card_button .selected {
+  background-color: gold;
+}
+
 body {
   font-family: "Roboto Mono", "Helvetica", sans-serif;
   background-color: #3e4347;
