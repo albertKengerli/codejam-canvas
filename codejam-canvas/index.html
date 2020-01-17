@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Canvas</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' href='styles/normalize.css'>
+  <link rel='stylesheet' href='assets/fonts/fonts.css'>
+  <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header_logo">Codejam - Canvas</h1>
+  </header>
+  <main>
+    <div class="column">
+      <div class="card">
+        <h2 class="card_heading">Tools</h2>
+        <button class="card_button"><span class="icon_bucket"></span>Bucket</button>
+        <button class="card_button"><span class="icon_eyedropper"></span>Color picker</button>
+        <button class="card_button"><span class="icon_move"></span>Move tool</button>
+        <button class="card_button"><span class="icon_transform"></span>Transform</button>
+      </div>
+      <div class="card">
+        <h2 class="card_heading">Palette</h2>
+        <button class="card_button">Current color</button>
+        <button class="card_button">Previous color</button>
+        <button class="card_button">Red</button>
+        <button class="card_button">Blue</button>
+      </div>
+    </div>
+    <canvas id="canvas" class="canvas" width="512" height="512"> Your canvas </canvas>
+    <div class="column">
+      <div class="card">
+        <h2 class="card_heading">Preset canvas</h2>
+        <button id="button4x4" class="card_button">4x4</button>
+        <button id="button32x32" class="card_button">32x32</button>
+        <button id="button256x256" class="card_button">256x256</button>
+        <button id="buttonBlank" class="card_button">Blank</button>
+      </div>
+    </div>
+  </main>
+
+  <script src='main.js'></script>
+</body>
+</html>

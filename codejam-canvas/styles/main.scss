@@ -1,0 +1,16 @@
+@import "variables.scss";
+@import "header.scss";
+@import "canvas.scss";
+@import "icon.scss";
+@import "card.scss";
+
+body {
+  font-family: $Roboto;
+
+  background-color: $graphitLight;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}

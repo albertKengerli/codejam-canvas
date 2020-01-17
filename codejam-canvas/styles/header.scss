@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+.header {
+  margin-bottom: 50px;
+
+  background-color: $graphit;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 55);
+
+  &_logo {
+    margin: 0 0;
+    padding: 0.5em 0.5em;
+
+    color: white;
+  }
+}
